@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-Regular.woff2);
+  }
+  @font-face {
+    font-family: inter-medium;
+    src: url(./assets/fonts/Inter-Medium.woff2);
+  }
+  @font-face {
+    font-family: inter-semibold;
+    src: url(./assets/fonts/Inter-SemiBold.woff2);
+  }
+  @font-face {
+    font-family: inter-bold;
+    src: url(./assets/fonts/Inter-Bold.woff2);
+  }
+
+  body {
+    @apply font-inter600 scrollbar-hide;
+  }
+}
+
+@layer utilities {
+  .maxW {
+    @apply max-w-screen-xl mx-auto;
+  }
+  .padX {
+    @apply px-4 md:px-8 lg:px-12;
+  }
+}

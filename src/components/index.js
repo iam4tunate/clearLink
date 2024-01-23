@@ -1,0 +1,9 @@
+export { default as Navbar } from "./Navbar";
+export { default as Hero } from "./Hero";
+export { default as Partners } from "./Partners";
+export { default as Why } from "./Why";
+export { default as Testimonial } from "./Testimonial";
+export { default as Faqs } from "./Faqs";
+export { default as Accordion } from "./Accordion";
+export { default as Trial } from "./Trial";
+export { default as Footer } from "./Footer";
