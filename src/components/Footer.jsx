@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       <div className='bg-gray50 py-8 max-sm:py-4'>
         <div className='maxW padX flex max-sm:flex-col gap-4 items-center justify-between'>
-          <p className='text-gray500 font-inter400'>
+          <p className='text-gray500 font-inter400 text-sm'>
             © 2023 ClearMeet. All rights reserved.
           </p>
           <div className='flex items-center text-gray400 text-xl gap-x-4'>

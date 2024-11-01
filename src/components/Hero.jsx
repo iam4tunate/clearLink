@@ -5,7 +5,7 @@ import ROBOT from '../assets/images/robot.svg';
 
 const Hero = () => {
   return (
-    <div className='maxW lg:padX flex max-lg:flex-col max-lg:text-center items-center justify-between gap-x-6 gap-y-8 pt-16 max-sm:pt-12 lg:pb-6'>
+    <div className='maxW lg:padX flex max-lg:flex-col max-lg:text-center items-center justify-between gap-x-6 gap-y-8 pt-16 lg:pb-6'>
       <div className='max-lg:padX w-[45%] max-lg:w-[90%] max-lg:mx-auto max-md:w-full'>
         <div className='text-5xl max-md:text-4xl max-sm:text-3xl text-gray800 font-inter600 pb-4 leading-[1.1]'>
           Bringing the world together, one video call at a time.
