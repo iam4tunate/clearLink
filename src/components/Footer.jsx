@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="w-[35%] max-lg:w-[45%] max-sm:w-full">
           <img src={LOGO} alt="logo" className="mb-6" />
           <span className="font-inter400 text-gray600">
-            ClearLink is your gateway to effortless, high-quality video
+            ClearMeet is your gateway to effortless, high-quality video
             conferencing. Join us in shaping the future of communication!
           </span>
         </div>
@@ -64,7 +64,7 @@ const Footer = () => {
       <div className="bg-gray50 py-8 max-sm:py-4">
         <div className="maxW padX flex max-sm:flex-col gap-4 items-center justify-between">
           <p className="text-gray500 font-inter400">
-            © 2023 ClearLink. All rights reserved.
+            © 2023 ClearMeet. All rights reserved.
           </p>
           <div className="flex items-center text-gray400 text-xl gap-x-4">
             <FaLinkedin />

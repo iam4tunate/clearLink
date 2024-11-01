@@ -18,7 +18,7 @@ const Testimonial = () => {
             <IoIosStar />
           </div>
           <div className="text-gray900 text-4xl max-md:text-3xl max-sm:text-2xl leading-snug sm:leading-tight font-inter500">
-            ClearLink has upgraded our remote meetings. High-quality video,
+            ClearMeet has upgraded our remote meetings. High-quality video,
             screen sharing, and top-notch security make it essential for our
             team.
           </div>

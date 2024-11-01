@@ -9,7 +9,7 @@ const Partners = () => {
   return (
     <div className="maxW padX text-center py-16">
       <p className="text-gray600 font-inter500 text-lg">
-        Join 1,500+ companies already video conferencing the ClearLink way
+        Join 1,500+ companies already video conferencing the ClearMeet way
       </p>
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-8 pt-6 max-sm:pt-8">
         <img src={SHOPIFY} alt="shopify" className="w-[160px]" />
