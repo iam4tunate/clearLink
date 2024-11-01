@@ -8,15 +8,13 @@ const Hero = () => {
     <div className='maxW lg:padX flex max-lg:flex-col max-lg:text-center items-center justify-between gap-x-6 gap-y-8 pt-16 pb-12'>
       <div className='max-lg:padX w-[45%] max-lg:w-[90%] max-lg:mx-auto max-md:w-full'>
         <div className='text-5xl max-md:text-4xl max-sm:text-3xl text-gray800 font-inter600 pb-4 leading-[1.1]'>
-          Uniting the world,
-          <br />
-          one video call at a time
+          Bringing the world together, one video call at a time.
         </div>
         <p className='font-inter400 text-lg text-gray500 max-lg:w-[70%] max-md:w-[90%] max-sm:w-full max-sm:text-base max-lg:mx-auto leading-[1.3] max-sm:leading-[1.2]'>
           Experience the future of communication with ClearMeet – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
-        <div className='flex items-center max-sm:flex-col max-lg:gap-x-4 gap-x-1 gap-y-3 max-lg:justify-center py-12 max-lg:p-4'>
+        <div className='flex items-center max-sm:flex-col max-lg:gap-x-4 gap-x-1 gap-y-3 max-lg:justify-center py-12 max-lg:pt-6 max-lg:pb-8'>
           <button className='outline-none border border-gray400 px-6 py-2 text-white bg-blue rounded-full max-sm:w-full'>
             Start your free trial
           </button>
