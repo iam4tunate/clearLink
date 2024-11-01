@@ -5,9 +5,9 @@ import ROBOT from '../assets/images/robot.svg';
 
 const Hero = () => {
   return (
-    <div className='maxW padX flex max-lg:flex-col max-lg:text-center items-center justify-between gap-x-6 gap-y-8 pt-16 pb-12'>
-      <div className='w-[45%] max-lg:w-[90%] max-lg:mx-auto max-md:w-full'>
-        <div className='text-5xl max-sm:text-4xl text-gray800 font-inter600 pb-4 leading-[1.1]'>
+    <div className='maxW lg:padX flex max-lg:flex-col max-lg:text-center items-center justify-between gap-x-6 gap-y-8 pt-16 pb-12'>
+      <div className='max-lg:padX w-[45%] max-lg:w-[90%] max-lg:mx-auto max-md:w-full'>
+        <div className='text-5xl max-md:text-4xl max-sm:text-3xl text-gray800 font-inter600 pb-4 leading-[1.1]'>
           Uniting the world,
           <br />
           one video call at a time
@@ -16,16 +16,16 @@ const Hero = () => {
           Experience the future of communication with ClearMeet – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
-        <div className='flex items-center max-sm:flex-col gap-y-1 max-lg:justify-center py-12 max-lg:py-8'>
-          <button className='outline-none border border-gray400 px-6 py-2 text-white bg-blue rounded-full'>
+        <div className='flex items-center max-sm:flex-col max-lg:gap-x-4 gap-x-1 gap-y-3 max-lg:justify-center py-12 max-lg:p-4'>
+          <button className='outline-none border border-gray400 px-6 py-2 text-white bg-blue rounded-full max-sm:w-full'>
             Start your free trial
           </button>
-          <button className='outline-none border-none bg-transparent px-6 py-2 text-blue flex items-center gap-x-2'>
+          <button className='outline-none border-none bg-transparent px-6 py-2 text-blue flex items-center justify-center gap-x-2 max-sm:w-full'>
             <img src={ROBOT} alt='' />
             <span>Discover AI assstant</span>
           </button>
         </div>
-        <div className='flex max-sm:flex-col items-center max-lg:justify-center gap-x-2.5 gap-y-3'>
+        <div className='flex flex-wrap items-center max-lg:justify-center gap-x-2.5 gap-y-3 max-lg:pb-4'>
           <img src={AVATARS} alt='' className='' />
           <div className=''>
             <div className='flex items-center gap-x-2'>
@@ -44,8 +44,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='w-[50%] max-lg:w-full max-lg:mx-auto'>
-        <img src={ILLUSTRATION} alt='' className='max-lg:mx-auto' />
+      <div className='w-[50%] max-lg:w-full'>
+        <img src={ILLUSTRATION} alt='' className='w-full h-full object-cover' />
       </div>
     </div>
   );

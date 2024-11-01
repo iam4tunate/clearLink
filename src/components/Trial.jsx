@@ -3,7 +3,7 @@ import SCREEN_MOCKUP from '../assets/images/screen_mockup.svg';
 
 const Trial = () => {
   return (
-    <div className='max-w-screen-xl ml-auto xl:mx-auto lg:pl-12 pt-12 max-lg:pt-16 flex max-lg:flex-col gap-y-10 justify-between'>
+    <div className='max-w-screen-xl ml-auto xl:mx-auto lg:pl-12 pt-12 max-lg:pt-16 max-sm:pt-12 flex max-lg:flex-col gap-y-10 justify-between'>
       <div className='w-[40%] max-lg:w-[70%] max-sm:w-full pt-16 max-lg:pt-0 max-lg:padX'>
         <div className='text-gray800 text-4xl max-md:text-3xl max-sm:text-2xl'>
           Ready to clear the path to perfect communication?
