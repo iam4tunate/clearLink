@@ -13,7 +13,7 @@ const Partners = () => {
         Join 1,500+ companies already video conferencing the ClearMeet way
       </p>
       <Marquee className='pt-6 max-sm:pt-8'>
-        <div className='flex items-center gap-x-16 pr-16'>
+        <div className='flex items-center gap-x-16'>
           <img src={SHOPIFY} alt='shopify' className='w-[160px] max-sm:w-[140px]' />
           <img src={COINBASE} alt='coinbase' className='w-[160px] max-sm:w-[140px]' />
           <img src={DROPBOX} alt='dropbox' className='w-[160px] max-sm:w-[140px]' />
