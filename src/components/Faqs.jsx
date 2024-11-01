@@ -8,7 +8,7 @@ const Faqs = () => {
         <div className='text-gray800 text-4xl max-md:text-3xl py-4 max-sm:py-2.5'>
           FAQs
         </div>
-        <p className='text-gray500 text-lg max-md:text-base font-inter400 max-lg:w-[80%] max-sm:w-full leading-[1.2]'>
+        <p className='text-gray500 text-lg max-md:text-base font-inter400 max-lg:w-[80%] max-sm:w-full max-sm:leading-[1.3]'>
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please chat to our friendly team.
         </p>

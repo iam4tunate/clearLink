@@ -14,11 +14,11 @@ const Why = () => {
           <div className='text-gray800 text-4xl max-md:text-3xl py-4'>
             Why choose ClearMeet?
           </div>
-          <p className='text-gray500 text-lg max-sm:text-base font-inter400 leading-[1.3]'>
+          <p className='text-gray500 text-lg max-sm:text-base font-inter400 max-sm:leading-[1.3]'>
             In a world where connection is everything, ClearMeet takes the lead.
             Our cutting-edge video conferencing app offers:
           </p>
-          <div className='pt-20 max-lg:pt-16 max-md:pt-12 max-sm:pt-8 grid grid-cols-2 max-sm:grid-cols-1 gap-y-12 gap-x-10'>
+          <div className='pt-20 max-lg:pt-16 max-md:pt-12 max-sm:pt-8 grid grid-cols-2 max-sm:grid-cols-1 gap-y-12 max-sm:gap-y-8 gap-x-10'>
             <div className=''>
               <IoVideocamOutline className='text-blue text-4xl max-sm:text-3xl' />
               <div className='text-gray900 pt-4 pb-2'>

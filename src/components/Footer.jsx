@@ -16,7 +16,7 @@ const Footer = () => {
       <div className='maxW padX pt-20 pb-10 flex flex-wrap gap-x-16 gap-y-14'>
         <div className='w-[35%] max-lg:w-[45%] max-sm:w-full'>
           <img src={LOGO} alt='logo' className='mb-6 w-[10rem]' />
-          <span className='font-inter400 text-gray600'>
+          <span className='font-inter400 text-gray600 max-sm:leading-[1.3]'>
             ClearMeet is your gateway to effortless, high-quality video
             conferencing. Join us in shaping the future of communication!
           </span>
